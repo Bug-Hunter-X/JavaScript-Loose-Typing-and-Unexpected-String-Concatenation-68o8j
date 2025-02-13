@@ -1,0 +1,2 @@
+# JavaScript Loose Typing and Unexpected String Concatenation
+This example demonstrates a common issue in JavaScript caused by its loose typing system.  The + operator behaves differently depending on the data types of its operands. When adding numbers and strings, it will perform string concatenation rather than numerical addition, leading to potentially unexpected results.  The solution shows how to use type checking or conversion to ensure the expected behavior.
